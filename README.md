@@ -11,14 +11,16 @@ If you use Stochastic Series Attack in your research, please consider citing
 
 ## Getting started
 1. `git clone https://github.com/haolingguang/SSA.git`  
-1. Install dependencies:  
+2. Install dependencies:  
   `Python >= 3.6`   
   `Pytorch >=1.3`  
   `pip install pretrainedmodels`  
 [pretrainedmodels](https://github.com/Cadene/pretrained-models.pytorch) is a pretrained models repository of pytorch, which include all pytorch models used in our paper.  
   
-2. `archive` include the dataset in NeurIPS 2017 adversarial competition. If you want use `ImageNet`, you need download corresponding dataset and use `torchvision.datasets.ImageFolder` to load dataset.  
+3. `archive` include the dataset in NeurIPS 2017 adversarial competition. If you want use `ImageNet`, you need download corresponding dataset and use `torchvision.datasets.ImageFolder` to load dataset.  
 
-3. run attack  
-`python SSA.py`
+4. run attack  
+`python SSA.py`  
+
+5. If you need load adversarial training models, you need use https://github.com/haolingguang/tensorflow-to-pytorch.git to convert tensorflow's pre-training models to pytorch's
 
