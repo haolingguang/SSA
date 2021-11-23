@@ -1,0 +1,75 @@
+Namespace(batch_size=2, categories='./archive/categories.csv', epoch=10, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, logdir='./log', max_epsilon=8, norm=1, num_steps=10, output_dir='./output', remote_model='dpn68')
+epoch: 0
+Start Attack!
+Namespace(batch_size=2, categories='./archive/categories.csv', epoch=10, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, logdir='./log', max_epsilon=8, norm=1, num_steps=10, output_dir='./output', remote_model='dpn68')
+epoch: 0
+steps: 1 | n_target_acc: 0.029 |  model_accuracy: 0.029
+steps: 2 | n_target_acc: 0.006 |  model_accuracy: 0.006
+steps: 3 | n_target_acc: 0.004 |  model_accuracy: 0.004
+Namespace(batch_size=2, categories='./archive/categories.csv', epoch=10, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, logdir='./log', max_epsilon=8, norm=1, num_steps=10, output_dir='./output', remote_model='dpn68')
+epoch: 0
+steps: 1 | n_target_acc: 0.039 |  model_accuracy: 0.039
+steps: 2 | n_target_acc: 0.005 |  model_accuracy: 0.005
+steps: 3 | n_target_acc: 0.002 |  model_accuracy: 0.002
+steps: 4 | n_target_acc: 0.001 |  model_accuracy: 0.001
+steps: 5 | n_target_acc: 0.001 |  model_accuracy: 0.001
+Namespace(batch_size=2, categories='./archive/categories.csv', epoch=10, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, logdir='./log', max_epsilon=8, norm=1, num_steps=10, output_dir='./output', remote_model='dpn68')
+epoch: 0
+steps: 1 | n_target_acc: 0.050 |  model_accuracy: 0.050
+steps: 2 | n_target_acc: 0.008 |  model_accuracy: 0.008
+steps: 3 | n_target_acc: 0.001 |  model_accuracy: 0.001
+steps: 4 | n_target_acc: 0.001 |  model_accuracy: 0.001
+steps: 5 | n_target_acc: 0.001 |  model_accuracy: 0.001
+steps: 6 | n_target_acc: 0.001 |  model_accuracy: 0.001
+steps: 7 | n_target_acc: 0.001 |  model_accuracy: 0.001
+steps: 8 | n_target_acc: 0.000 |  model_accuracy: 0.000
+Namespace(batch_size=2, categories='./archive/categories.csv', epoch=10, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, logdir='./log', max_epsilon=8, norm=1, num_steps=10, output_dir='./output', remote_model='dpn68')
+epoch: 0
+steps: 1 | n_target_acc: 0.217 |  model_accuracy: 0.876
+steps: 2 | n_target_acc: 0.145 |  model_accuracy: 0.876
+steps: 3 | n_target_acc: 0.127 |  model_accuracy: 0.876
+steps: 4 | n_target_acc: 0.121 |  model_accuracy: 0.876
+steps: 5 | n_target_acc: 0.121 |  model_accuracy: 0.876
+steps: 6 | n_target_acc: 0.117 |  model_accuracy: 0.876
+steps: 7 | n_target_acc: 0.120 |  model_accuracy: 0.876
+steps: 8 | n_target_acc: 0.119 |  model_accuracy: 0.876
+Namespace(batch_size=32, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(batch_size=8, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(batch_size=4, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(batch_size=4, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+steps: 1 | non_target_acc: 0.266 |  model_original_accuracy: 0.876
+Namespace(batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, input_dir='./archive', local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+steps: 1 | non_target_acc: 0.381 |  model_original_accuracy: 0.876
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, num_workers=47, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, num_workers=47, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, num_workers=15, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, num_workers=15, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, num_workers=15, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, num_workers=15, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
+Namespace(NIPS_data='./archive', batch_size=2, categories='./archive/categories.csv', epoch=5, gpu='0', image_size=299, local_model=['resnet152', 'xception', 'inceptionv3', 'dpn98', 'resnet18', 'dpn131', 'resnet34', 'resnet50'], local_model_len=4, log_dir='./log', max_epsilon=8, norm=1, num_steps=10, remote_model='dpn68')
+epoch: 0
