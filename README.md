@@ -10,6 +10,7 @@ If you use Stochastic Series Attack in your research, please consider citing
 
 
 ## Getting started
+1. git clone https://github.com/haolingguang/SSA.git
 1. Install dependencies:  
   `Python >= 3.6`   
   `Pytorch >=1.3`  
