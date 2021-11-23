@@ -17,7 +17,7 @@ If you use Stochastic Series Attack in your research, please consider citing
   `pip install pretrainedmodels`  
 [pretrainedmodels](https://github.com/Cadene/pretrained-models.pytorch) is a pretrained models repository of pytorch, which include all pytorch models used in our paper.  
   
-2. `archive` include the dataset in NeurIPS 2017 adversarial competition. If you want use `ImageNet`, you need download corresponding dataset and use 'torchvision.datasets.ImageFolder' to load dataset.  
+2. `archive` include the dataset in NeurIPS 2017 adversarial competition. If you want use `ImageNet`, you need download corresponding dataset and use `torchvision.datasets.ImageFolder` to load dataset.  
 
 3. run attack  
 `python SSA.py`
