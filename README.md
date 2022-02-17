@@ -24,3 +24,4 @@ If you use Stochastic Series Attack in your research, please consider citing
 
 5. If you need load adversarial training models, you need use https://github.com/haolingguang/tensorflow-to-pytorch.git to convert tensorflow's pre-training models to pytorch's
 
+6.Create attack deatset from NIPS 2017 dataset, you need run `Rename_image.py` in `mini_dataset`.
