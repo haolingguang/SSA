@@ -33,3 +33,5 @@ For example: parallel computing
 `t = timm.create_model('resnet50', num_classes=1000, pretrained=True)`     
 `t = torch.nn.DataParallel(t).cuda()`     
 
+# Contact
+haolingguang@mail.dhu.edu.cn
