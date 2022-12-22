@@ -26,12 +26,12 @@ If you use Stochastic Series Attack in your research, please consider citing
 
 6. In order to get the mini-ImageNet, you can refer to https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/mini_imagenet
 7. Create attack dataset for the models trained by mini-ImageNet, you need run `Rename_image.py` in `mini_dataset`.
-# Note
+## Note
 Package `pretrainedmodels` maybe have some problem, But you can use another pytorch model package [timm](https://rwightman.github.io/pytorch-image-models/)   
 For example: parallel computing    
 `import timm`    
 `t = timm.create_model('resnet50', num_classes=1000, pretrained=True)`     
 `t = torch.nn.DataParallel(t).cuda()`     
 
-# Contact
+## Contact
 haolingguang@mail.dhu.edu.cn
